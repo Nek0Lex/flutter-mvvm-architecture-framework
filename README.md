@@ -19,7 +19,7 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Getting Started
 Run auto-route: 
-  flutter packages pub run build_runner watch (keep watching file)
-  flutter packages pub run build_runner build (once and exite)
+flutter packages pub run build_runner watch (keep watching file)
+flutter packages pub run build_runner build (once and exite)
   
 Run locator: flutter pub run build_runner buil
