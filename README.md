@@ -22,4 +22,4 @@ Run auto-route:
 - flutter packages pub run build_runner watch (keep watching file)
 - flutter packages pub run build_runner build (once and exite)
   
-Run locator: flutter pub run build_runner buil
+Run locator: flutter pub run build_runner build
