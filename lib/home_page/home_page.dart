@@ -11,9 +11,10 @@ class HomePage extends StatelessWidget {
 	Widget build(BuildContext context) {
 		return ViewModelBuilder<HomePageViewModel>.reactive( //non-reactive
 			viewModelBuilder: () => HomePageViewModel(),
+			onModelReady: (model) => model.initialise(),
 		  builder:(context, model, child) =>  Scaffold(
 		  	appBar: AppBar(
-		  		title: Text('title'),
+		  		title: Text(model.title),
 		  	),
 		  	body: Center(
 		  		child: Column(
